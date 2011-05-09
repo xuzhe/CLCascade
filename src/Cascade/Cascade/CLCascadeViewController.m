@@ -249,7 +249,7 @@
     // set content nvigator
     [viewController setContentNavigator: navigator];
     // set delegate to navigator
-    [viewController setDelegate: navigator];
+    [viewController setDelegate: (id<CLCascadeViewControllerDelegate>)navigator];
     // set parent
     [viewController setParentCascadeViewController: self];
     // set detail position view

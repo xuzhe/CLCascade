@@ -320,7 +320,7 @@
         // set up content navigator
         [_rootViewController setContentNavigator: self];
         // set delegate
-        [_rootViewController setDelegate: self];
+        [_rootViewController setDelegate:(id<CLCascadeViewControllerDelegate>)self];
         // root view hasn't parentCascadeViewController
         [_rootViewController setParentCascadeViewController: nil];
         

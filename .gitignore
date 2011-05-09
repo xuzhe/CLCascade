@@ -1,3 +1,7 @@
 src/.DS_Store
 .DS_Store
 src/Cascade/.DS_Store
+src/Cascade/*.xcodeproj/*.mode1v3
+src/Cascade/*.xcodeproj/*.pbxuser
+src/Cascade/*.xcodeproj/xcuserdata/
+src/Cascade/*.xcodeproj/project.xcworkspace/
